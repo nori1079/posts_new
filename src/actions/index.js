@@ -1,4 +1,4 @@
-import { postsRef } from "../config/firebase";
+import { postsRef } from "src/firebase";
 export const CREATE_POSTS = "create_posts";
 
 export function createPost(values, callback) {
